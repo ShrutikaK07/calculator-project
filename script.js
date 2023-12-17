@@ -7,7 +7,7 @@ const keys = document.querySelectorAll(".key");
 const keysArray = Array.from(keys);
 
 let lastKeyIsOperator = false; // To track if the last key clicked was an operator
-let decimalAdded = false; // To track if a decimal point has been added to the current number
+let decimalAdded = false; // To track if a decimal point has been added to  current number
 
 const keyClickHander = (event) => {
   console.log("keyClicked: ", event.target.innerText);
